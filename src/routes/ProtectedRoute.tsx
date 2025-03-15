@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import { getLocalStorage } from '../utils/storage';
 import { Navigate, useLocation } from 'react-router-dom';
 
 interface PropTypes {

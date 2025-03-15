@@ -4,7 +4,7 @@ import Input from '../../ui/Input';
 import styles from './Login.module.css';
 import { login } from '../../../services/auth.service';
 import { setLocalStorage } from '../../../utils/storage';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
